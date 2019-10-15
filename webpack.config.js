@@ -65,6 +65,7 @@ module.exports = {
                     src: path.resolve('src/img/calculator-128.png'),
                     sizes: [96, 128],
                     destination: path.join('icons', 'ios'),
+                    ios: true
                 },
                 {
                     src: path.resolve('src/img/calculator-512.png'),
@@ -78,9 +79,8 @@ module.exports = {
             display: "standalone",
             scope: "/",
             orientation: "portrait",
-            theme_color: "#000000bf",
-            ios: true,
-            inject: true
+            theme_color: "#FFF",
+            ios: true
         })
     ],
     output: {
