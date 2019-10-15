@@ -73,7 +73,7 @@ module.exports = {
                     ios: 'startup'
                 }
             ],
-            start_url: "/?utm_source=a2hs",
+            start_url: "?utm_source=a2hs",
             background_color: "#FFF",
             display: "standalone",
             scope: "/",
