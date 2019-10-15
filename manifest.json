@@ -30,8 +30,8 @@
   "short_name": "calculator",
   "orientation": "portrait",
   "display": "standalone",
-  "start_url": "?utm_source=a2hs",
+  "start_url": ".",
   "background_color": "#FFF",
   "scope": "/",
-  "theme_color": "#00000066"
+  "theme_color": "#000000bf"
 }
