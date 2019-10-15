@@ -1,0 +1,15 @@
+#calculator-display {
+  font-family: "Courier New", Courier, monospace;
+  > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .result {
+      width: 80%;
+      overflow-wrap: break-word;
+      text-align: right;
+      font-size: 28px;
+    }
+  }
+}

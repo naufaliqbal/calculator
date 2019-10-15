@@ -1,0 +1,12 @@
+@import './component-scss/buttons.scss';
+@import './component-scss/display.scss';
+
+#calculator {
+    max-width: 230px;
+    margin: auto;
+    padding: 10px;
+
+    hr {
+        border-color: rgba(0,0,0,0.2);
+    }
+}
