@@ -44,7 +44,7 @@ module.exports = {
     plugins: [
         new CleanWebpackPlugin(),
         new HtmlWebpackPlugin({
-            title: 'Calculator made with vue',
+            title: 'Calculator',
             template: 'src/template.html',
             favicon: 'src/img/calculator-128.png',
         }),
@@ -73,12 +73,12 @@ module.exports = {
                     ios: 'startup'
                 }
             ],
-            start_url: "?utm_source=a2hs",
+            start_url: ".",
             background_color: "#FFF",
             display: "standalone",
             scope: "/",
             orientation: "portrait",
-            theme_color: "#00000066",
+            theme_color: "#000000bf",
             ios: true,
             inject: true
         })
