@@ -4,7 +4,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "calculator-128.png"
   },
   {
-    "revision": "3bde59d9c9866d5f5a0e22766d46ce85",
+    "revision": "758d4db73f17097036820750f961c79a",
     "url": "index.html"
   },
   {
